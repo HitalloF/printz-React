@@ -1,0 +1,36 @@
+.faixa img{
+    width: 100%;
+    margin-top: -15px;
+}
+.faixa2 img{
+    width: 100%;
+    margin-top: -15px;
+}
+.boxtxt{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.boxtxt {
+    display: flex;
+
+}
+
+.textimg img{
+    width: 400px;
+
+}
+
+.processo {
+    padding: 50px;
+    align-items: center;
+    align-content: center;
+}
+.processo h1 {
+    text-align: center;
+}
+.boximg {
+    display: flex;
+    justify-content: center;
+    
+}

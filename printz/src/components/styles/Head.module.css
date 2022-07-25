@@ -1,0 +1,38 @@
+.head {
+    background: black;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background: black;
+}
+
+.active {
+     display: none;
+}
+
+.menu {
+justify-content: space-around;
+list-style: none;
+display: flex;
+}
+.menu a{
+    text-decoration: none;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    overflow: hidden;
+    display: flex;
+    font-weight: bold;
+    
+}
+
+
+
+.head img {
+    width: 200px;
+}
