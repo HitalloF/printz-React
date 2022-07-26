@@ -1,0 +1,33 @@
+.silk {
+
+    display: flex;
+    align-items: center;
+}
+.silk h1{
+    text-align: center;
+}
+
+.bordado {
+
+    display: flex;
+    align-items: center;
+}
+.bordado h1{
+    text-align: center;
+}
+
+.bordado img {
+    max-width: 500px;
+}
+
+.heat {
+
+    display: flex;
+    align-items: center;
+}
+.heat h1{
+    text-align: center;
+}
+.heat img {
+    max-width: 500px;
+}

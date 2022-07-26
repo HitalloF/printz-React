@@ -7,6 +7,7 @@ const Body = () => {
     <section>
     <div className={styles.faixa}><img src={wallpaper}></img></div>
     <Home />
+  
     </section>
   )
 }
