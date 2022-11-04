@@ -1,3 +1,73 @@
+
+  @media only screen and (max-width: 600px) {
+    .maquinasg {
+        background:whiter;
+        display: none;
+        padding: 0
+    }
+    .processo img {
+
+        max-width: 350px;
+        }
+    .maquinamobile {
+        padding: 20px;
+        align-items: center;
+        width: 300px;
+        margin: auto;
+        padding: 0;
+    }    
+    .maquina {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0;
+    }
+    .maquinamobile img{
+    max-width: 300px;
+    
+    }        
+  }
+  @media only screen and (min-width: 601px) {
+    .maquinasg {
+        background:whiter;
+    }
+    .maquinamobile {
+        display: none;
+
+
+    }
+    .maquinasg img{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        width: 450px;
+   
+        
+    }
+    .centroimg img{
+        width: 600px;
+    }
+    .centroimg {
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    .processo img {
+        max-width: 600px;
+        }
+
+  }
+
+
+.maquinas  {
+    background-color: aquamarine;
+
+    background: white;
+}
+
+
 .faixa img{
     width: 100%;
     margin-top: -15px;
@@ -6,15 +76,8 @@
     width: 100%;
     margin-top: -15px;
 }
-.boxtxt{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
 
-.boxtxt {
-    display: flex;
 
-}
 
 .textimg img{
     width: 400px;
@@ -25,7 +88,12 @@
     padding: 50px;
     align-items: center;
     align-content: center;
+    
 }
+.processo img {
+
+
+    }
 .processo h1 {
     text-align: center;
 }
@@ -33,4 +101,9 @@
     display: flex;
     justify-content: center;
     
+}
+
+.galery {
+    padding: 20px;
+    background-color: black;
 }

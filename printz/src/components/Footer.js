@@ -4,6 +4,7 @@ import logo from '../img/logopz.png'
 import icontt from '../img/tticon.png';
 import iconinsta from '../img/instaicon.png';
 import iconfb from '../img/fbicon.png';
+import map from '../img/map.png'
 const Footer = () => {
   return (
     <section>
@@ -31,9 +32,9 @@ const Footer = () => {
        <div className={styles.services}>
         <h3>Service</h3>
         <ul>
-          <li>um</li>
-          <li>dois</li>
-          <li>tres</li>
+          <li ><a href='/service'>SILK CREEN</a></li>
+          <li><a href='/service'>BORDADO</a></li>
+          <li><a href='/service'>HEAT PRESS</a></li>
         </ul>
         <div>
       </div>
@@ -42,8 +43,12 @@ const Footer = () => {
         </div>
         </div>
     </div>
-    <div className='right'>
-        MAP
+    <div className={styles.right}>
+        <div>
+          <h3>MAP</h3>
+        </div>
+<a href='https://goo.gl/maps/ewTZp4k4WjZk8eFW9' target="_blank"><img src={map}></img></a>
+        
     </div>
     </div>
     

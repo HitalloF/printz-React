@@ -5,7 +5,7 @@ import styles from './styles/Body.module.css';
 const Body = () => {
   return (
     <section>
-    <div className={styles.faixa}><img src={wallpaper}></img></div>
+
     <Home />
   
     </section>

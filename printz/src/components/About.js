@@ -1,17 +1,24 @@
 import React from 'react'
 
 const About = () => {
+
+  React.useEffect(() => {
+    document.title = 'PrintZInk - ABOUT';
+  }, []);
+
+
+
   return (
     <section>
       <div className='container'>
       <h1>About</h1>
-      <p>Money Merch is a customer-oriented print and design company based in Orange, CA. We specialize in screen printing, embroidery, DTG printing and<br/>
-      fulfillment services for businesses, non-profit organizations, schools, bands, and sports leagues.<br/>
-      With over 10 years of experience, we pride our success on being at the frontiers of latest printing and embellishment trends. We source our products in<br/>
-  
-      Overall, we want to build our reputation on quality and unrivaled customer service. Whether you are here as a first-time customer or are an esteemed<br/>
-      <br/>
-      repeat customer, we are here to make your printing experience one of a kind.</p>
+      <p> DESDE 2022, ATUAMOS NO SEGMENTO DE CUSTOMIZACAO. DESDE A CRIAÇÃO DE MARCA À ENTREGA DO PRODUTO FINAL. DENTRO DESTE RAMO, OFERECEMOS DOIS TIPOS DE SERVIÇOS PARA NOSSOS CLIENTES:<br/> 
+PRIVATE LABEL: DESENVOLVEMOS PRODUTOS PARA PEQUENAS E GRANDES MARCAS NO RAMO DA MODA.<br/> 
+FARDAMENTOS: ATENDEMOS EMPRESAS DE PEQUENO, MÉDIO E GRANDE PORTE.<br/> 
+
+TEMOS UMA GESTÃO PROFISSIONAL, QUE CONTROLA O SEU PROCESSO PRODUTIVO E TRABALHA COM RESPONSABILIDADE E TRANSPARÊNCIA.<br/> TEMOS COMO PROPOSTA O COMPROMISSO COM A QUALIDADE, BUSCANDO SEMPRE INOVAÇÃO E MELHORIAS PARA NOSSA EQUIPE E CLIENTES A FIM DE ENTREGAR A MELHOR EXPERIÊNCIA COM NOSSA PRODUÇÃO. <br/> 
+
+NA PRINTZ DESENVOLVEMOS PRODUTOS DE QUALIDADE E SEMPRE COM O INTUITO DE SUPERAR AS EXPECTATIVAS DOS NOSSOS CLIENTES. ESTAMPAR SUA IDEIA NUNCA FOI TÃO FÁCIL.</p>
       </div>
 
     </section>

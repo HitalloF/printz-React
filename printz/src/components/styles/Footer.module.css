@@ -1,3 +1,17 @@
+@media only screen and (max-width: 600px) {
+
+    .right img{
+        width: 70px;
+        }
+
+    }    
+
+    @media only screen and (min-width: 601px) {
+        .right img{
+            width: 450px;
+            }
+    }
+
 
 
 .footer{
@@ -38,4 +52,9 @@
     text-decoration: none;
     color: white;
     list-style: none;
+}
+
+.right h3{
+    color: white;
+    text-align: center;
 }
