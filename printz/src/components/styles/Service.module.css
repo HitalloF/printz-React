@@ -7,6 +7,15 @@
     text-align: center;
 }
 
+.title h1 {
+    text-align:  center;
+    padding: 50px;
+}
+.silk h2 {
+    color: red;;
+}
+
+.silk p{}
 
 .title h1 {
     text-align: center;
@@ -21,18 +30,33 @@
     text-align: center;
 }
 
-.bordado img {
-    max-width: 500px;
-}
+
 
 .heat {
 
     display: flex;
     align-items: center;
 }
-.heat h1{
+
+
+
+
+
+
+.silk h2{
     text-align: center;
 }
-.heat img {
-    max-width: 500px;
+
+.bordado h2{
+    text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .silk h2 {
+        font-size: 18px;
+    }
+    .silk p {
+        font-size: 10px;
+    }
+  }
