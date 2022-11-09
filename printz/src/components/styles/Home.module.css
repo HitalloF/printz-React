@@ -10,11 +10,8 @@
         max-width: 350px;
         }
     .maquinamobile {
-        padding: 20px;
-        align-items: center;
-        width: 300px;
-        margin: auto;
-        padding: 0;
+        background: black;
+        width: 350px;
     }    
     .maquina {
         display: flex;
@@ -24,29 +21,48 @@
         padding: 0;
     }
     .maquinamobile img{
-    max-width: 300px;
-    
-    }        
+    max-width: 300px;    }   
+    .mobile img {
+        width: 440px;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+            }
+            .mobile {
+                display: flex;
+                margin: auto;
+                align-items: center;
+                justify-content: center;
+                background-color: black;
+        
+            }
+     
   }
   @media only screen and (min-width: 601px) {
     .maquinasg {
         background:whiter;
     }
-    .maquinamobile {
+    .mobile {
         display: none;
+        background-color: black;
 
-
+    }
+    .mobile img {
+width: 350px;
     }
     .maquinasg img{
         margin: auto;
         justify-content: center;
         align-items: center;
-        width: 450px;
+      
    
         
     }
+    .centroimg {
+        background-color: black;
+    }
     .centroimg img{
-        width: 600px;
+        width: 1200px;
     }
     .centroimg {
         
@@ -107,3 +123,4 @@
     padding: 20px;
     background-color: black;
 }
+

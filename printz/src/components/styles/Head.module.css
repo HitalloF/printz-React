@@ -1,15 +1,10 @@
 .header {
-    background-image: url('../../img/background.png');
+    background-image: url("/src/img/bg.png");
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: center ;
+
     background-size: cover;
-    
-
-}
-
-
-
+    }
 
 .nav {
     display: flex;
@@ -41,14 +36,6 @@ display: flex;
 
 
 
-.head img {
-    width: 200px;
-    background-image: url('../../img/background.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
-}
 
 .block a {
     text-decoration: none;
@@ -71,10 +58,10 @@ display: flex;
   .bgheader {
     background-image: url('../../img/background.png');
     background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
+    background-position: center ;
+
     background-size: cover;
-    padding-bottom: 200px;
+
   }
 
   .header {

@@ -1,14 +1,17 @@
 @media only screen and (max-width: 600px) {
 
-    .right img{
-        width: 70px;
+
+    .right p {
+        font-size: 0.9rem;
         }
 
     }    
 
+
     @media only screen and (min-width: 601px) {
         .right img{
             width: 450px;
+            display: none;
             }
     }
 
@@ -43,7 +46,10 @@
     color: white;
     list-style: none;
 }
-
+ .services a {
+    text-decoration: none;
+    color: white;
+ }
 .services h3{
     text-align: center;
     color: white;
@@ -57,4 +63,8 @@
 .right h3{
     color: white;
     text-align: center;
+}
+.right p {
+    text-align: center;
+    color: white;
 }

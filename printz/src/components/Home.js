@@ -1,6 +1,7 @@
 import React from 'react'
 import maquina1 from '../img/home/maqui1.png'
-import maquina2 from '../img/home/maqui2.png'
+import maquinass2 from '../img/homebgg2.png'
+import maquinass from '../img/homebgg.png'
 import faixa2 from '../img/faixa2.png';
 import styles from './styles/Home.module.css';
 import Galery from './Galery';
@@ -12,25 +13,20 @@ const Home = () => {
   }, []);
 
   return (
-    <section>
+<>
+<div className={styles.mobile}>
+<img src={maquinass} ></img></div>
       <div  className={styles.maquinasg}>
         <div className={styles.centroimg}>
         <div className={styles.maquina}>
-          <img src={maquina1} ></img>
+        <img src={maquinass2} ></img>
         </div>
         <div className={styles.maquina}>
-          <img src={maquina2} ></img> 
+        
         </div>
         </div>
 </div>
-<div className={styles.maquinamobile}>
-<div className={styles.maquina}>
-      <img src={maquina1} ></img>
-      </div>
-      <div   className={styles.maquina}>
-      <img src={maquina2} ></img> 
-        </div>
-</div>
+
       <div className='container'>
 
       </div>
@@ -46,7 +42,7 @@ const Home = () => {
       <img src={Process} ></img>
       </div>
         </div>
-    </section>
+</>
   )
 }
 

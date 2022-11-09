@@ -1,62 +1,43 @@
-.silk {
 
-    display: flex;
-    align-items: center;
-}
-.silk h1{
+
+.silk h2,h1,h3,li{
     text-align: center;
+    padding: 15px;
+    font-weight: bold;
 }
 
-.title h1 {
-    text-align:  center;
-    padding: 50px;
-}
-.silk h2 {
-    color: red;;
+.silk h2, h3{
+    font-size: 1.5rem;
+    color:darkgray
 }
 
-.silk p{}
-
-.title h1 {
-    text-align: center;
-    align-items: center;
-}
-.bordado {
-
-    display: flex;
-    align-items: center;
-}
-.bordado h1{
-    text-align: center;
+.silk li {
+    list-style: none;
 }
 
 
 
-.heat {
-
-    display: flex;
-    align-items: center;
-}
-
-
-
-
-
-
-.silk h2{
-    text-align: center;
-}
-
-.bordado h2{
-    text-align: center;
-}
 
 @media only screen and (max-width: 600px) {
-
+    .silk p,li{
+    
+     margin: auto;
+    }
+    
     .silk h2 {
         font-size: 18px;
     }
     .silk p {
-        font-size: 10px;
+        font-size: 1rem;
     }
+    .silk li{
+        font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 1020px) {
+    .silk p,li{
+        margin-left: 50px;
+    }
+    
   }
